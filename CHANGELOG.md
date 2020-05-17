@@ -1,3 +1,7 @@
+# [1.0.6](https://github.com/gskbyte/GSKStretchyHeaderView/releases/tag/1.0.6)
+
+Fixes
+
 # [1.0.5](https://github.com/gskbyte/GSKStretchyHeaderView/releases/tag/1.0.5)
 
 Added static mode to skip frame changes if needed
