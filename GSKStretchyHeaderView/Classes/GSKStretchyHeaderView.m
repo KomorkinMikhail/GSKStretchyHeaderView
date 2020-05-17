@@ -70,6 +70,7 @@ static const CGFloat kNibDefaultMaximumContentHeight = 240;
     self.contentAnchor = GSKStretchyHeaderViewContentAnchorTop;
     self.contentExpands = YES;
     self.contentShrinks = YES;
+    self.contentIsStatic = NO;
     self.manageScrollViewInsets = YES;
     self.manageScrollViewSubviewHierarchy = YES;
 }
@@ -260,6 +261,11 @@ static const CGFloat kNibDefaultMaximumContentHeight = 240;
 
 - (void)layoutContentViewIfNeeded {
     if (!self.needsLayoutContentView) {
+        return;
+    }
+    
+    if (self.contentIsStatic) {
+        self.needsLayoutContentView = NO;
         return;
     }
     
