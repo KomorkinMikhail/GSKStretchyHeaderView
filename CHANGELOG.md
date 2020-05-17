@@ -1,3 +1,7 @@
+# [1.0.5](https://github.com/gskbyte/GSKStretchyHeaderView/releases/tag/1.0.5)
+
+Added static mode to skip frame changes if needed
+
 # [1.0.4](https://github.com/gskbyte/GSKStretchyHeaderView/releases/tag/1.0.4)
 
 - [Fix zPosition change issues](https://github.com/gskbyte/GSKStretchyHeaderView/pull/82)
