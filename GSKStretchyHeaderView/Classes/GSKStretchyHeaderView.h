@@ -131,6 +131,12 @@ typedef NS_ENUM(NSUInteger, GSKStretchyHeaderViewExpansionMode) {
 @property(nonatomic) IBInspectable BOOL contentExpands;
 
 /**
+ *  Specifies wether the contentView height will be static.
+ *  Default is NO.
+ */
+@property(nonatomic) IBInspectable BOOL contentIsStatic;
+
+/**
  *  Sets a new maximumContent height and scrolls to the top.
  */
 - (void)setMaximumContentHeight:(CGFloat)maximumContentHeight
