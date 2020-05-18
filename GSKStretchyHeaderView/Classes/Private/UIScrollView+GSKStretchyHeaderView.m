@@ -58,7 +58,7 @@
 - (void)gsk_layoutStretchyHeaderView:(GSKStretchyHeaderView *)headerView
                        contentOffset:(CGPoint)contentOffset
                previousContentOffset:(CGPoint)previousContentOffset {
-    if (self.contentIsStatic) {
+    if (headerView.contentIsStatic) {
         return;
     }
     // First of all, move the header view to the top of the visible part of the scroll view,
